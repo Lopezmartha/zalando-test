@@ -15,3 +15,5 @@ ${REGISTER_NEWSLETTER}      //span[text()="Yes, I wish to receive occasional ema
 ${REGISTER_BTN}             //button[contains(@data-testid,"register_button")]
 
 ${PASSWORD_WARNING}         //span[text()="For security, your password needs to be at least 6 characters. Spaces don’t count."]
+
+${EMAIL_WARNING}            //span[text()="Please enter a valid email address (for example: your.name@domain.com)"]
