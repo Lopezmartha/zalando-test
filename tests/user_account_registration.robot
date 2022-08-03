@@ -21,3 +21,7 @@ User can create an account with a valid email address and valid password
     Click Newsletter Checkbox
     Click Register Button 
     
+User cannot create an account with a valid email address and an invalid password
+    [Documentation]     This test case shows that users cannot create an account with a valid email and an invalid password 
+    [Tags]              Functional
+    Click Login Tab
