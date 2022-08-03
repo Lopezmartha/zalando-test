@@ -12,4 +12,6 @@ ${PASSWORD_INPUT}          //input[contains(@placeholder,"Password")]
 
 ${REGISTER_NEWSLETTER}      //span[text()="Yes, I wish to receive occasional emails about special offers, new products and exclusive promotions. I can cancel my subscription at any time. (Optional)"]
 
-${REGISTER_BTN}     //button[contains(@data-testid,"register_button")]
+${REGISTER_BTN}             //button[contains(@data-testid,"register_button")]
+
+${PASSWORD_WARNING}         //span[text()="For security, your password needs to be at least 6 characters. Spaces don’t count."]
