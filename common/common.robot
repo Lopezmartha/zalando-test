@@ -11,3 +11,5 @@ ${LAST_NAME1}       Tom
 ${VALID_EMAIL_ADDRESS}      gbaskaliwa+tester@gmail.com
 
 ${VALID_PASSWORD}           Tango123
+
+${INVALID_PASSWORD}         Tom
