@@ -43,3 +43,10 @@ Click Newsletter Checkbox
 Click Register Button 
     Wait Until Element Is Visible       ${REGISTER_BTN}
     Click Element                       ${REGISTER_BTN}
+
+Email And Password Warning Should Appear             
+    Wait Until Element Is Visible       ${EMAIL_WARNING}  
+    Page Should Contain Element         ${EMAIL_WARNING}   
+    Wait Until Element Is Visible       ${PASSWORD_WARNING}
+    Page Should Contain Element         ${PASSWORD_WARNING} 
+    
