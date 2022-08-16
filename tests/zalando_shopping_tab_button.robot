@@ -17,6 +17,9 @@ User Should Be Able To See Zalando Shopping Cart Tab Button
 Dropdown menu should be displayed when user mouse over zalando shopping cart tab button
     [Documentation]        User can mouse down on cart tab and drop down menu will be displayed
     [Tags]                Functional
+    Wait Until Element Is Visible     ${CART_TAB}
+    Mouse Over                         ${CART_TAB}
+    Page Should Contain            Your bag is empty
 
 
 
