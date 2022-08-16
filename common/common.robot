@@ -2,7 +2,7 @@
 *** Variables ***
 
 ${URL}          https://www.zalando.co.uk/
-${BROWSER}      edge
+${BROWSER}      chrome
 
 ${FIRST_NAME1}      Tester
 
