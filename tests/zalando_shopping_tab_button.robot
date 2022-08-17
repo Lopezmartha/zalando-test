@@ -19,12 +19,14 @@ Dropdown menu should be displayed when user mouse over zalando shopping cart tab
     [Tags]                Functional
     Wait Until Element Is Visible     ${CART_TAB}
     Mouse Over                         ${CART_TAB}
+    Sleep        5s
     Page Should Contain            Your bag is empty
 User should be able to click Zalando shopping cart tab button
     [Documentation]        User can click on cart tab button  and drop down menu page will be displayed
-    [Tags]                Funtional
-    Click Element                    ${CART_TAB}
-    
+    [Tags]                Functional
+    Click Element                   ${CART_TAB}
+    Sleep                           10s
+    Page Should Contain Element           //*[@id="Layer_2"]
                
     
     

@@ -6,7 +6,8 @@ Resource    ../pageobjects/authenticate_pageobject.robot
 
 *** Keywords ***
 Launch Browser 
-    Open Browser    ${URL}      ${BROWSER}      
+    Open Browser    ${URL}      ${BROWSER} 
+    Maximize Browser Window     
 
 Click Login Tab
     Wait Until Element Is Visible       ${LOGIN}
