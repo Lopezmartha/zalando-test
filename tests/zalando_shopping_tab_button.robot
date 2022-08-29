@@ -20,7 +20,7 @@ Dropdown menu should be displayed when user mouse over zalando shopping cart tab
     Click Element  ${WOMEN_HOME}
     Mouse Over  ${GET_LOOK} 
     Mouse Down  ${CART_TAB}
-    Page Should Contain Element  ${Your is empty}
+    Page Should Contain Element  ${Your_BAG_is_empty}
     
 User should be able to click Zalando shopping cart tab button
     [Documentation]        User can click on cart tab button  and drop down menu page will be displayed

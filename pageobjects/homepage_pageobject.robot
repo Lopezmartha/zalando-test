@@ -8,7 +8,7 @@ ${CART_TAB}    //a[contains(@title,'Your bag')]
 
 ${BAG_IMG}     //*[@id="Layer_2"]
 
-${Your_is_empty}  //h2[text()="Your bag is empty"]/../..
+${Your_BAG_is_empty}  //h2[text()="Your bag is empty"]/../..
 
 ${SEARCH_PANEL}    //input[contains(@placeholder,"Search")]
 
